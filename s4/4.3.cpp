@@ -39,7 +39,7 @@ int main() {
         double rad = (x * 2 * PI) / WIDTH * 2;
         double sin_val = sin(rad);
         
-        int y = center_y - (int)(sin_val * (HEIGHT / 2 -1));
+        int y = center_y - (int)(sin_val * (HEIGHT / 2 - 1));
         
         if (y >= 0 && y < HEIGHT) {
             graph[y][x] = '*';
