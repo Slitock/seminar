@@ -1,0 +1,11 @@
+#include <iostrem>
+#include <fstream>
+#include <vector>
+using namespace std;
+
+
+
+int main(){
+    int a = 5;
+    cout<a;
+}
