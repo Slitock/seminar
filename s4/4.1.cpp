@@ -11,18 +11,19 @@ int S_rectangel(){
     return a*b;
 }
 
-int S_trangel(){
+float S_trangel(){
     int a, h;
     
     cout<<"Нахождение площади треугольника."<<endl;
     cout<<"Введите a и h: ";
     cin>>a>>h;
 
-    return a*h*(1/2);
+    return a*h*(0.5);
 }
 
-int S_circle(){
-    int r, p=3.14;
+float S_circle(){
+    int r;
+    float p=3.14;
 
     cout<<"Нахождение площади круга."<<endl;
     cout<<"Введите r: ";

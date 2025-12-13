@@ -2,8 +2,8 @@
 
 using namespace std;
 
-void Random(int m, int i, int c, int count) {
-    int s_curr = 0;
+void Random(int m, int i, int c, int count = 5, int s_0 = 0) {
+    int s_curr = s_0;
     
     cout << "Параметры: m=" << m << ", i=" << i << ", c=" << c << endl;
     for (int j = 0; j < count; j++) {
@@ -13,7 +13,7 @@ void Random(int m, int i, int c, int count) {
 }
 
 int main() {
-    Random(37, 3, 64, 5);
+    Random(37, 3, 64, 100, time(nullptr));
     cout << endl;
     
     Random(25173, 13849, 65537, 5);
