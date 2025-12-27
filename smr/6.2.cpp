@@ -5,7 +5,6 @@ int main() {
     long long M;
     cin >> M;
 
-    // Ищем y = M % 3
     long long y = M % 3;
     long long x = (M - 4 * y) / 3;
 
